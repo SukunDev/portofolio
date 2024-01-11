@@ -13,12 +13,14 @@ export default function Footers() {
           <Headings title={"Folow Me"}>
             <ul className="flex items-center gap-1 xs:gap-2">
               <li>
-                <SocialButton href={"https://instagram.com/sukundev32"}>
+                <SocialButton
+                  href={"https://www.instagram.com/sukundevelopers"}
+                >
                   <PiInstagramLogo className="text-base xs:text-xl" />
                 </SocialButton>
               </li>
               <li>
-                <SocialButton href={"https://twiter.com/sukundev"}>
+                <SocialButton href={"https://twitter.com/sukundev"}>
                   <FaXTwitter className="text-base xs:text-xl" />
                 </SocialButton>
               </li>
@@ -36,10 +38,10 @@ export default function Footers() {
               </li>
             </ul>
           </Headings>
-          <p className="text-center mt-4 text-gray-400 dark:text-white/50 text-sm">
+          <p className="mt-4 text-sm text-center text-gray-400 dark:text-white/50">
             © 2024{" "}
             <Link
-              className="hover:text-blue-500 transition duration-500"
+              className="transition duration-500 hover:text-blue-500"
               href={"https://github.com/SukunDev/portofolio"}
             >
               SukunDev

@@ -22,6 +22,9 @@ const getPost = async () => {
   }
 };
 
+export const metadata = {
+  title: "About Me",
+};
 export default async function About() {
   const { frontmatter, content } = await getPost();
   return (

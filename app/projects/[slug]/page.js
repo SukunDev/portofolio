@@ -24,6 +24,14 @@ const getProjects = async ({ params: { slug } }) => {
   }
 };
 
+export async function generateMetadata({ params }) {
+  const { frontmatter, content } = await getProjects({ params });
+  return {
+    title: frontmatter.title,
+    description: frontmatter.description,
+  };
+}
+
 export default async function SingleProject({ params }) {
   const { frontmatter, content } = await getProjects({ params });
   return (

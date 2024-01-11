@@ -1,6 +1,7 @@
 import React from "react";
 import DefaultButton from "./DefaultButton";
 import { PiPlusCircle } from "react-icons/pi";
+import CopyEmailButton from "./copyEmailButton";
 
 export default function HireMe() {
   return (
@@ -11,10 +12,11 @@ export default function HireMe() {
       <p className="text-base sm:text-lg text-slate-500 dark:text-white/60">
         Creating user experience and visual appealing design
       </p>
-      <div className="flex items-center gap-4 mt-4 justify-center">
+      <div className="flex items-center justify-center gap-4 mt-4">
         <DefaultButton title={"Hire Me"} href={"/contact"}>
           <PiPlusCircle />
         </DefaultButton>
+        <CopyEmailButton />
       </div>
     </div>
   );

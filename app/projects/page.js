@@ -3,6 +3,10 @@ import Headings from "../components/headings";
 import HireMe from "../components/hireMe";
 import Projects from "../components/projects";
 
+export const metadata = {
+  title: "Projects",
+};
+
 export default async function ProjectsPages() {
   return (
     <>

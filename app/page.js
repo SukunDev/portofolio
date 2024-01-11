@@ -5,6 +5,7 @@ import Link from "next/link";
 import Projects from "./components/projects";
 import Headings from "./components/headings";
 import HireMe from "./components/hireMe";
+import CopyEmailButton from "./components/copyEmailButton";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
             <DefaultButton title={"Hire Me"} href={"/contact"}>
               <PiPlusCircle />
             </DefaultButton>
+            <CopyEmailButton />
           </div>
         </div>
         <div className="w-full sm:w-2/5">
