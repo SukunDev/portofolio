@@ -18,7 +18,7 @@ export default function CopyEmailButton() {
     <div className="relative z-0 group">
       <button
         onClick={handleClick}
-        className={`relative flex items-center gap-1.5 px-3 py-1.5 font-normal rounded-md bg-white ring-[2px] ring-gray-100 dark:bg-white/10 text-slate-700 dark:text-gray-200`}
+        className={`relative flex items-center gap-1.5 px-3 py-1.5 font-normal rounded-md bg-white ring-[2px] ring-gray-100 dark:ring-white/10 dark:bg-white/10 text-slate-700 dark:text-gray-200`}
       >
         <PiCopySimple />
         {onCopy ? "Copied" : "Copy Email"}
